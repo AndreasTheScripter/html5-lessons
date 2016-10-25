@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SMKN 1 Cibadak - Data Siswa</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" type="image/x-icon" href="images/logo.ico"/>
+</head>
+<body>
+  <div class="headcolored">
+    <div class="wrapper">
+      <nav>
+        <ul>
+          <img src="images/call.png" alt="Call Us" class="flat-icon">
+          <li>Call Us:</li><li class="call-us">(0266) 532510</li>
+          <img src="images/email.png" alt="Email" class="flat-icon">
+          <li>Email:<a href="www.yahoo.com" class="email">smkn1_cibadak@yahoo.co.id</a></li>
+        </ul>
+        <div class="clear"></div>
+      </nav>
+    </div>
+  </div>
+  <div class="headcolored2">
+    <div class="wrapper2">
+      <div class="header">
+        <img src="images/logo.jpg" alt="Logo SMKN1 Cibadak" width="55" height="70">
+        <a href="http://www.smkn1cibadak.sch.id/" class="smkn-title">SMKN 1 Cibadak</a>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li class="dropdown">
+            <a href="javascript:void(0)" class="dropbtn" onclick="myFunction()">Program Studi</a>
+            <div class="dropdown-content" id="myDropdown">
+              <ul>
+                <li><a href="#" alt="#">Pengawasan Mutu Hasil Pertanian</a></li>
+                <li><a href="#" alt="#">Agribisnis Hasil Pertanian dan Perikanan</a></li>
+                <li><a href="#" alt="#">Agribisnis Tanaman Pangan dan Holtikultura</a></li>
+              </ul>
+            </div>
+          </li>
+          <li><a href="data_siswa.html">Data Siswa</a></li>
+        </ul>
+        <div class="clear"></div>
+      </div>
+    </div>
+  <header>
+    <div class="data_siswa"></div>
+  </header>
+  <div class="headcolored">
+    <div class="wrapper">
+      <div class="footer">
+        <ul>
+          <li class="author">Created by <a href="https://www.facebook.com/SilentUser.090101" class="author"> Asphira Andreas</a></li>
+        </ul>
+        <div class="clear"></div>
+      </div>
+    </div>
+  </div>
+<script>
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+window.onclick = function(e) {
+  if (!e.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    for (var d = 0; d < dropdowns.length; d++) {
+      var openDropdown = dropdowns[d];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+</body>
+</html>
