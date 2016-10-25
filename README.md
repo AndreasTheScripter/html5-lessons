@@ -1,2 +1,2 @@
-# html5-lessons
-This repository about making Website with HTML5 &amp; CSS3! 
+# HTML5 Lessons
+This repository about making simple Website with HTML5 &amp; CSS3! 
